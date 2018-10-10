@@ -1,0 +1,35 @@
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.exe.config
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Interop.MSScriptControl.dll
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\AutoProfiler.vbproj.ResolveComReference.cache
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\AutoProfiler.vbprojResolveAssemblyReference.cache
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmDebug.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmDeviceInfo.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmAbout.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmPickColor.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmAddProfile.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmAdvProcessInput.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmDBManager.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmError.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmHelp.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmKeyPress.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmMMO7LEDFlow.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmProcessList.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmProfileDB.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmProfilesSettings.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmSettings.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmAutoProfiler.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.frmTestScript.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\AutoProfiler.vbproj.GenerateResource.Cache
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\CyborgAutoProfiler.Resources.resources
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.exe.manifest
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.application
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.exe
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.pdb
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Cyborg Auto-Profiler.xml
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\bin\Release\Saitek.Devices.dll
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.TrustInfo.xml
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.exe.manifest
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.application
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.exe
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.xml
+C:\Users\Danny350\Desktop\Cyborg Auto-Profiler\AutoProfiler\obj\x86\Release\Cyborg Auto-Profiler.pdb

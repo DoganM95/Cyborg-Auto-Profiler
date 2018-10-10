@@ -1,0 +1,249 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CyborgAuto-Profiler
+</name>
+</assembly>
+<members>
+<member name="P:CyborgAutoProfiler.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CAP">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CAP___Blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CAP___Green">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CAP___Mag">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CAP___Red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.CommandUnit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.DPIMode0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.DPIMode1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.DPIMode2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.DPIMode3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.DPIMode4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Flight">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Gamepad">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Infection">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.KeyboardV1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.KeyboardV5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Keyboardv7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Kill_Process_Script">
+	<summary>
+  Looks up a localized string similar to ' This script will show you how to close an application when a certain profile is being used.
+
+
+'////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+' This is called when a profile is activated
+
+Sub LoadProfile
+ 
+
+   ' In this script we want to close 'uTorrent' when the profile is activated.
+   ' We are using 'uTorrent.exe' as an example in this script. Simply replace 'uTorrent.exe' with the proces [rest of string was truncated]";.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.MMO7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.MMO7LED">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.msscript">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.None">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_BIB">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_Rudder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_Throttle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_TPM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_X52">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.PF_Yoke">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.RAT">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Read_Me">
+	<summary>
+  Looks up a localized string similar to Cyborg Auto-Profiler 3.2.3
+
+by Danny Hasley
+http://CyborgAutoProfiler.com
+CyborgAutoProfiler@gmail.com
+
+
+Feel free to e-mail me any bugs, questions, or to request features.
+
+
+Special Thanks to:
+
+Michael Colesky for MMO7 LED Color assistance.
+
+M.M.O.7 LED Flow Motivated by the Razer Mamba 2012
+
+
+Beta Testers:
+André LMC
+Mark Chong
+Mike Parent
+Mike Edwards
+Black3v3r
+Sebastian Eberhard
+Tom Nigro
+SAK KING OF SA
+
+
+
+----Description----
+
+Cyborg Auto-Profiler is a lightweight, yet reli [rest of string was truncated]";.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Run_Process_Script">
+	<summary>
+  Looks up a localized string similar to ' This script will show you how to open an application when a certain profile is no longer being used
+
+'////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+' This is called when a profile is no longer activated.
+
+Sub UnloadProfile
+     
+    ' Now that the profile is no longer activated we want 'uTorrent' to open back up. We've also made it so it will start minimized to be out of the way.
+     Call Ru [rest of string was truncated]";.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Saitek_Devices">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Selected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.SpyCursorIcon">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.SpyPic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.STRIKE7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.Swatch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.TaskMenu">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.TaskProfileNormal">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.TaskProfileSelected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.uTorrent___Close_Open">
+	<summary>
+  Looks up a localized string similar to ' This script will show you how to open and close an application when a certain profile is being used, and no longer used.
+' This is a good example of how you can exit software that could hog your Internet connection when opening a game that uses online functionality.
+' Then when the game is exited and the default profile is activated it will open the software it closed back up.
+
+'//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// [rest of string was truncated]";.
+</summary>
+</member><member name="P:CyborgAutoProfiler.My.Resources.Resources.WhiteRAT">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:CyborgAutoProfiler.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,495 @@
+Cyborg Auto-Profiler 3.2.3
+
+by Danny Hasley
+http://CyborgAutoProfiler.com
+CyborgAutoProfiler@gmail.com
+
+
+Feel free to e-mail me any bugs, questions, or to request features.
+
+
+Special Thanks to:
+
+Michael Colesky for MMO7 LED Color assistance.
+
+M.M.O.7 LED Flow Motivated by the Razer Mamba 2012
+
+
+Beta Testers:
+André LMC
+Mark Chong
+Mike Parent
+Mike Edwards
+Black3v3r
+Sebastian Eberhard
+Tom Nigro
+SAK KING OF SA
+
+
+
+----Description----
+
+Cyborg Auto-Profiler is a lightweight, yet reliable utility designed to switch profiles for Cyborg input devices.
+
+When the application detects that a set game or application is running, it will change the profile accordingly. or you can set Hot Keys to switch to a specific profile. You can also set a default profile, which is activated when no set processes are detected. For R.A.T Mouse users it can change the DPI mode and Precision Aim Percentages with every individual profile allowing seamless transition and ultimate personalization. M.M.O.7 users can also change the LED colors with specific profiles.
+
+
+--- Features include----
+
+• Supports all Saitek, Cyborg, and MadCatz devices.
+• Automatic switching of profiles when a specific software, or game is detected.
+• Default Profile for devices when no set software, or game is detected.
+• Hot Keys for swapping to specific profiles.
+• You can choose from 3 types of Software detection.
+• Change the DPI mode and Precision Aim settings for each profile for R.A.T devices.
+• Change the LED colors or make them Flow for M.M.O.7 device for each profile.
+• Launch profiles without ProfilerU Software running.
+• Automatic Update option.
+• Run scripts when profiles are activated and deactivated.
+
+--------------------------------------------------------------------------------------------------------
+
+This application requires .NET Framework 4.0
+
+You can find the download at:
+• http://www.microsoft.com/en-us/download/details.aspx?id=17851
+
+
+For updates check at:
+
+• http://CyborgAutoProfiler.com
+
+
+
+
+If you like the software and would like to show support you can always donate $1 or so to help support a independent programmer. ;)
+
+----------------------------------------------------------------------------------------------------
+
+Changes in 3.2.2
+• Added: Make the M.M.O.7 LEDs the color of the pixel under your cursor. You can find it in the M.M.O.7 Flow settings. This will work for desktop use only. It will not detect colors in a video game.
+• Added: Ignore Device. This feature allows you to ignore a device in Cyborg Auto-Profiler. Any ignored devices will not have profiles automatically loaded. You can find this option in the Settings under 'Device Information'.
+• Fixed: Error with RAT3 devices trying to read Precision Aim values. 
+• Changed: M.M.O.7 Flow will remember if it was enabled when the software closes and will now automatically enable when the software is launched.
+• Changed: M.M.O.7 LED Flow will now re-enable if swapped to a profile that changes the LEDs, and then loads a profile with no LED settings.
+• Fixed: M.M.O.7 Flow will no longer stop if profile is changed unless the profile has set LED settings.
+
+Changes in 3.2.1
+• Added: Blue Screen of Death Protection. This setting will inform you in the Profile Settings menu that the profile you have selected may need to have a 
+delay when switching, if selected the profile will not change until no keys have been pressed within the longest macro time in the profile. This will prevent
+users getting the dreaded BSoD.
+
+
+Changes in 3.2.0
+• Changed: Profile Settings 'Other' Tab has been renamed 'General'
+• Changed: Default Profile setting has been moved to the General tab
+• Changed: Settings Tabs have been rearranged.
+• Fixed: Error reading DPI Mode for some users.
+• Fixed: Active Window mode would change to default profile when viewing ToolTip in Chrome.
+• Fixed: Software now detects when devices are added/removed again.
+• Added: Support for S.T.R.I.K.E.3 Keyboard.
+
+Changes in 3.1.9
+• Fixed: Issue where CAP wouldn't close when computer shuts down.
+• Reversed: Minimize button now places the software in the system tray.(Due to a .Net framework bug I had to change it back to this)
+• Changed: Improved softwares ability to read the RAT devices DPI Mode.
+• Changed: Improved error reporting.
+
+Changes in 3.1.8
+• Fixed: Active Window: Google Chrome being detected when not the active window. 
+• Changed: Improved the Auto-Update feature in general. Now includes MD5 checksum.
+• Changed: Improved Error handling for process detection.
+• Changed: Minimize button now only minimizes the software, the forms X button now places the software in the system tray.
+• Added: Pulse option for M.M.O.7 LED Flow.
+• Added: You can now set the DPI settings for individual profiles.
+• Added: 'Lock Profile Until Process Ends' setting. This will lock profiles from changing until the locked profiles process has ended.
+
+Changes in 3.1.7
+• Fixed: Error at software launch/settings.
+
+Changes in 3.1.6
+• Added: Support for RATm & MOUS9
+• Added: Software now detects when a device has been plugged in or removed.
+• Added: New Setting 'Clear Profile' This setting if enabled will clear the profiles on the devices if no process is detected. Default Profile will be disabled if used.
+• Added: Software will now re-enable itself when exiting settings or profile settings menu if it was originally enabled.
+• Added: Device Information Window in settings.
+• Fixed: Issues in detecting some devices.
+• Fixed: Start with Windows problem for some users.
+
+Changes in 3.1.5
+• Added: VBScript Scripting Support for when profiles are loaded or unloaded. For an example of its use. If you wanted to close 'uTorrent' when you was launching an online game you could use a script to do it with the 'Sub LoadProfile'. If you wanted to open 'uTorrent' after you exited the game just use a script on the 'Sub UnloadProfile'. I will include some sample scripts. 
+• Added: Preview option in M.M.O.7 LED Flow Settings.
+• Added: Custom Color Dialog for LED Settings
+• Changed: Improved 'Start with Windows' setting.
+• Fixed: Graphics glitch with using enlarge setting with Windows.
+
+
+Changes in 3.1.4
+• Added: You can now make your M.M.O.7 Mouse LEDs flow to colors of your choice.
+• Added: Tool Tips in various locatons to help users. Have a question about a setting? Hold the mouse over it for information.
+• Changed: Improved Update Checking. Now checks ever 24 hours instead of only at program startup. Now checks when option is turned on from settings.
+• Fixed: Not returning M.M.O.7 Mouses L.E.Ds to the original color when software closes.
+
+
+Changes in 3.1.3
+• Changed: Cyborg Auto-Profiler now has a new Icon.
+• Changed: Rearranged Settings Window.
+• Added: Profile Settings now allow you to change the Mouses Speed with every profile.
+• Added: System tray profile selection list now has right click menu to open the Profile Editor for the selected profile.
+• Fixed: Active Window Mode will no longer change to the default profile when clicking a toolbar menu or sub-window.
+• Fixed: Advanced Process Input Window Selector Tool will now select Sub-Windows of processes.
+
+
+Changes in 3.1.2
+• Added: New Cursor Detection Mode.
+• Added: New Profile Settings for changing Caps Lock, Num Lock and Scroll Lock for each profile.
+• Added: Saitek Pro Flight Series of Devices now show Icons in the Devices Area.
+• Added: Delete Key now properly works in Process Settings menu.
+• Added: Profile Names too long to display will now use a slide animation.
+• Added: Advanced Input for Processes now has a drag and select feature.
+• Updated: Improved UI.
+
+
+Changes in 3.1.1
+• Fixed: DPI Mode Check was running way faster than it should have been.
+
+
+Changes in 3.1.0
+• Added: Cyborg Auto-Profiler will now check if the software is up to date and give the user the option to automatically update.
+• Fixed: Not saving profile directory when changed.
+• Fixed: Not displaying menus correctly when using Zoom modes in Windows.
+
+
+Changes in 3.0.0
+• Added: R.A.T and M.M.O.7 users can now change their Precision Aim Percentages settings with profiles. The feature allows you to set the percent for X and Y not just both.
+• Added: Hot Key settings for profiles. You can now set a hot key to launch profiles. This option can be enabled/disabled from the settings menu or system tray right click menu.
+• Added: Caption command to processes, It allows you to only detect the process when the window title is what you set it to. When setting a process you can add after the process name '/caption=' then the title you would like to specify. For an example 'iexplore/caption=Google - Windows Internet Explorer' then the profile will only change when on the google page.
+• Added: Add Process - Advanced Input. It makes adding the '/caption=' command easier.
+• Added: Profile Selector. You can now load any profile even if you haven't set up any settings for it.
+• Added: Right click menu to Profile Settings Process menu.
+• Added: You can now rename Processes in the Profiles Settings.
+• Added: More options in the system tray right click menu.
+• Added: You can drag and drop files onto the Process list in Profiles Settings for quicker process adding.
+• Changed: Edit Profiles renamed to Profiles Settings.
+• Changed: Profiles Settings menu has be redesigned.
+• Changed: Redone Read me file.
+
+
+
+Changes in 2.3.5
+
+• Added: Support for Sub Folders.
+• Added: Main menu now display detected devices. RAT Devices will show the current DPI Mode beside their icon.
+• Added: Setting 'RAT Remember DPI Mode'
+• Changed: No longer has to restart ProfilerU software to launch profile.
+• Removed: SmartTechnology Directory setting. No longer uses software.
+
+
+
+Changes in 2.3.4
+
+• Added: MMO7 Mouse users can now change the LED colors on their mouse when a profile is activated.
+• Added: RAT and MMO7 Mouse users can now change the DPI Mode on their mouse when a profile is activated.
+
+
+Changes in 2.3.3
+
+• Added: When adding a process to a Profile you can now select 3 methods 'Manual Input', 'Select Executable' or 'Select from Process List'
+• Added: Icon Color will be red if the software is disabled.
+
+
+Changes in 2.3.2
+
+• Changed: Check Interval can go as low as 50
+• Fixed: Default Profile needing a process.
+
+
+Changes in 2.3.1
+
+• Changed: Auto.pro is no longer needed. If you have 'Auto.pro' Please delete it.
+
+
+Changes in 2.3
+
+• Added: Active Window Mode. This mode swaps profiles depending on the active window you are using instead of if just the process is running. Made for people who swap profiles rapidly. This mode is extremely new and may have various issues, please report any to me so they may be addressed. I recommend you change your 'Check Interval' lower! 1000 seems to be appropriate. Thanks to axelrock for the idea!
+• Added: Multiple processes can be associated with 1 profile now.
+• Added: System Tray Balloon message for when profile has been changed. You can disable this feature in settings.
+• Fixed: Various bugs
+
+
+Changes in 2.2
+
+• Changed: Default Profiles Directory(In the recent SST Programmer software 7.0.17.2 They changed the Profile directory to 'C:\Users\Public\Documents\SmartTechnology Profiles')
+Will auto prompt you to change if updated and detected.
+• Added: When new Profiles Directory is detected you can choose to Migrate your profiles to the new directory, This will make it so you don't have to remake your profiles.
+
+
+Changes in 2.1
+
+• Added: Right Click menu to Profiles List
+• Added: Rename Profile(In the Right Click menu)
+• Changed: Will now allow no profiles(No more 'Blank' profile on default settings)
+• Changed: Profile list is now wider for longer file names.
+
+
+Changes in 2.0
+
+• Changed: The Profile system to no longer makes the user set the Profile name, You now select from a list.
+• Changed: When started at launch it will now automatically minimize
+• Added: Current Profile to the Main Menu
+• Fixed: Various bugs
+
+
+Changes in 1.1
+
+• Added: Priority System for profiles
+• Added: Launch at Startup 
+• Added: Enable at Launch
+• Fixed: Various bugs
+
+--------------------------------------------------------------------------------------------------------
+
+
+  ////////////////////////////
+ ///   Supported Devices  ///
+////////////////////////////
+
+Cyborg Mouse R.A.T. 3.
+Cyborg Mouse R.A.T. 5.
+Cyborg Mouse M.M.O 7
+Cyborg Mouse R.A.T. 7.
+Cyborg Mouse R.A.T. 9.
+Cyborg Mouse Contagion
+Cyborg Keyboard V.7
+Cyborg Keyboard S.T.R.I.K.E.7
+Cyborg V.5 Rumble Pad for PC/Xbox 360
+Cyborg F.L.Y.5
+Cyborg Command Unit
+
+It works for all Cyborg and Saitek devices using the SST Programming software
+
+--------------------------------------------------------------------------------------------------------
+
+
+  ////////////////////////////////////////
+ ///  How to use Cyborg Auto-Profiler ///
+////////////////////////////////////////
+ 
+
+--- Adding Profiles----
+
+First thing is to setup the settings for your profiles by going into the 'Profiles Settings' menu then just select 'Add Profile' and select the profile you would like to associate a process with. 
+
+
+
+--- Adding Processes----
+
+After adding a profile select the profile and set a process or processes That you would like to associate with the profile to trigger to switch the devices profile. You can add processes with the following options.
+
+
+----Manual Input----
+This option requires you to simply type the name of the process you would like to add 
+
+
+----Select Executable----
+This option allows you to browse your computer to find a specific Executable file and add it to the process list.
+
+
+----Select from Process List----
+This option will show you a list of processes and let you select witch one you would like to add.
+
+
+--- Advanced Input----
+ This option allows you to set a process to only be detected if the Title of the process window is what you set it to. You can select the Process and Process Window Title manually, Or you can click a process on the list and it will list the active window titles associated with it. You can also drag the window icon onto another window and select it. Keep in mind for some reason the software can only detect 1 browser title at a time, so it will only detect the last window you had active.
+
+
+----Drag and Drop----
+This option allows you to directly drag an executable or shortcut file into the process list. You can select as many files as you would like.
+ 
+--------------------------------------------------------------------------------------------------------
+
+
+That covers the profile and process adding. Now here are some extra option you may like to use.
+
+
+----Default Profile----
+If you would like to use a profile when no processes from any profiles are detected select 'Default' and it will load this profile, 
+e.g. If you have a profile that is made for your desktop select default so it will return to that profile when your not 
+running any specific software or games. 
+
+
+----Lock profile until process ends----
+This setting will make it so that the profile will not change until the process that has triggered the profile has ended.
+
+
+----Priorities----
+If using Process detection mode the profile chosen is prioritized in the order they are created in the Profiles list. You can move the profiles up and down the list to change priority. The Default profile has no priority effect.
+
+
+----BSoD Protection----
+The Saitek device drivers were not designed to change profile automatically, so when this happens an error occurs in the drivers that causes the system
+to crash(BSoD). This setting will inform you in the Profile Settings menu that the profile you have selected may need to have a 
+delay when switching, if selected the profile will not change until no keys have been pressed within the longest macro time in the profile. This will prevent
+users getting the dreaded BSoD.
+
+
+--- Rename a profile----
+To rename a profile right click it on the Profiles list and select 'Rename profile' This will rename the profiles actual file also.
+
+
+
+----------------------------Miscellaneous Settings------------------------------------------------------
+
+
+----Hot Key----
+You can set a Hot Key for the profile so you can switch to the set profile even if the Cyborg Auto-Profiler is disabled. But the Hot Key feature must be enabled in the setting or system tray right click menu. You can set single keys or a combination of a Modifier key(Shift, Alt, Control) with any other keys. With this feature you technically could change profiles with your Cyborg device itself.
+
+
+----Lock Keys----
+You can disable or enable Lock Keys with these options.
+
+
+----Mouse Speed----
+This Setting Modifies the system setting for the Mouses Speed. This allows you to allow certain profiles to either slow down or speed up mouse movement. If a profile modifies the mouse speed then changes to a profile that does not modify the mouse speed the mouse speed will return to the default speed that the software detects when it launched.
+
+
+----Scripts----
+This setting is for if you would like the profile to trigger a script when it is activated or deactivated. See 'How to use scripting' in this read-me for more information.
+
+--------------------------------------------------------------------------------------------------------
+
+
+  ///////////////////////////////////////
+ //  R.A.T & M.M.O.7 Custom Settings  //
+///////////////////////////////////////
+
+If you are an R.A.T or M.M.O.7 Mouse user you can change extra settings for your mouse.
+
+R.A.T & M.M.O.7 users can select a DPI mode to change to with specific profiles. They can also change the Precision Aim Percentages.
+
+
+M.M.O.7 users can set the Left and Right LED colors or make the LEDs flow to colors for specific profiles allowing further customization.
+
+
+
+  ////////////////
+ //  DPI Mode  //
+////////////////
+
+you can select a profile to change the DPI mode by setting if and what DPI Mode you would like the profile to to activate. The mouse will change the DPI mode when the profile is activated.
+
+
+
+  /////////////////////////////////
+ //  Precision Aim Percentages  //
+/////////////////////////////////
+
+You can now set Precision Aim Percentages to change with a specific profile, this also allows you to independently change the X and Y percentages to allow deeper customization. 
+
+
+
+  //////////////////
+ //  Change LED  //
+//////////////////
+
+M.M.O.7 users can select a profile to have a change the LED by checking the checkbox 'Change LED' and then pick a color. The mouse will change the LED color when the profile is activated.
+
+
+
+  //////////////////////
+ //  Color Flow LED  //
+//////////////////////
+
+M.M.O.7 user can make the LEDs flow to colors with 2-10 user set colors. 
+
+• Flow Interval is the amount of milliseconds that need to pass for each color change in the flow. 
+
+• Color Delay is for how many seconds are waited after reaching a set color before flowing to the next color. 
+
+• Random Order will make the next color picked randomly from the 2-10. If Random Order is not enabled they will flow in the order set by the user.
+
+--------------------------------------------------------------------------------------------------------
+
+
+  /////////////////////////////////////
+ // Cyborg Auto-Profiler Settings  ///
+/////////////////////////////////////
+
+
+That covers the Profiles Settings area now here is the software general settings.
+
+
+----Detection Type----
+
+This setting is for the type of detection you would like profile to swap with
+
+
+• Active Window Detection(Recommended)
+This mode swaps profiles depending on your current active window associated with a process. This is great for swapping between programs quickly.
+
+• Process Detection
+This mode simply selects profiles by if the set process is running and works through priority on the Profiles list.
+
+• Cursor Detection
+This mode will change the profiles by the software the mouses cursor is over.
+
+
+----Profiles Directory----
+
+This setting should be the folder your profiles are located. It is usually 'C:\Users\Public\Documents\SmartTechnology Profiles' This is where it needs to load the profiles.
+Older versions of the SST Programmer profile folder is located at 'C:\Users\Public\Documents\Saitek SD6 Profiles'
+
+
+
+--- Check for Updates ----
+This setting will enable/disable the Automatic Update Feature. If Automatic Updates are enabled when the software is launched it will check online for a new version. If a new version is detected it will ask the user if they would like to update and list the changes in the new version. If you select 'Yes' the software will download the new version and restart the software as the new version. If you have this Software located in a folder such as 'Program Files' that requires Administrator access you will need to launch this Software as an Administrator.
+
+
+
+
+--- RAT Remember DPI Mode----
+This setting makes it so if you change the DPI mode while using a profile it will remember the change and keep it if it swaps back to the profile.
+
+
+
+----Hot Key Enabled----
+This is the control setting for the Hot Key feature. Simply check this box if you would like to enable this feature.
+
+
+
+--- Check Interval----
+
+This setting is for how often you would like to check the current processes for a profile in milliseconds 1-30000
+
+
+
+----Start with Windows----
+
+This creates sets a Registry key to tell windows to run this software when it starts.
+
+
+
+----Enable at Startup----
+
+This setting enables the program when ever it is opened.
+
+
+
+---Show Profile Change in System tray----
+
+This setting effects if you would like the System tray icon to show a message when the profile is changed.
+
+
+--------------------------------------------Scripting--------------------------------------
+
+  ////////////////////////////
+ // How to use scripting  ///
+////////////////////////////
+
+Cyborg Auto-Profiler only support VBScripts for now. When using the scripts there is 2 subs that can be called from this software. The first is 'Sub LoadProfile' This sub is
+Called when the software activates the profile that is triggered. The other sub is 'Sub UnloadProfile' This is called when the software changes the active profile to a new one.
+You do not have to have both subs for any script, just what you are using. You will need to place any scripts you make in the Cyborg Auto-Profiler Scripts folder.
+You can use Notepad to make these script or you can use any VBScript editor available. I personally use Vbsedit. If using notepad make sure to save it as a '.vbs' extension.
+
+The software will include example scripts in the Cyborg Auto-Profiler Scripts folder. You can Google online for help on how to do lots of task with these scripts. They are fairly easy to make.
+If you need help trying to make a script for anything please feel free to contact me at my support E-mail and I'll do my best to help you.

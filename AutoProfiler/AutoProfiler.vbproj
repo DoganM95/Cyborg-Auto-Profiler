@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C5FD145-51B2-4130-82C3-5A502AB4B037}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CyborgAutoProfiler.My.MyApplication</StartupObject>
+    <RootNamespace>CyborgAutoProfiler</RootNamespace>
+    <AssemblyName>Cyborg Auto-Profiler</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cyborg Auto-Profiler.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cyborg Auto-Profiler.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\CAP Icons\CAP.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BF49B8727CDAEA6BE39FC562F127F2293F3D34F4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AutoProfiler_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Saitek.Devices, Version=7.0.23.0, Culture=neutral, PublicKeyToken=91148e038cfe3cc3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SmartTechnology\Software\Saitek.Devices.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menus\frmDebug.Designer.vb">
+      <DependentUpon>frmDebug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\frmDebug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmDeviceInfo.Designer.vb">
+      <DependentUpon>frmDeviceInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\frmDeviceInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moduels\modDevices.vb" />
+    <Compile Include="Settings\frmPickColor.Designer.vb">
+      <DependentUpon>frmPickColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmPickColor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles Settings\frmAddProfile.Designer.vb">
+      <DependentUpon>frmAddProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmAddProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles Settings\frmAdvProcessInput.Designer.vb">
+      <DependentUpon>frmAdvProcessInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmAdvProcessInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmDBManager.Designer.vb">
+      <DependentUpon>frmDBManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmDBManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmError.Designer.vb">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\frmError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmHelp.Designer.vb">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moduels\ApplicationEvents.vb" />
+    <Compile Include="Profiles Settings\frmKeyPress.Designer.vb">
+      <DependentUpon>frmKeyPress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmKeyPress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmMMO7LEDFlow.Designer.vb">
+      <DependentUpon>frmMMO7LEDFlow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmMMO7LEDFlow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProcessList.Designer.vb">
+      <DependentUpon>frmProcessList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProcessList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProfileDB.Designer.vb">
+      <DependentUpon>frmProfileDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProfileDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProfilesSettings.Designer.vb">
+      <DependentUpon>frmProfilesSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmProfilesSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmAutoProfiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\frmAutoProfiler.Designer.vb">
+      <DependentUpon>frmAutoProfiler.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Moduels\modAliases.vb" />
+    <Compile Include="Moduels\modAutoProfiler.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Profiles Settings\frmTestScript.Designer.vb">
+      <DependentUpon>frmTestScript.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profiles Settings\frmTestScript.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Menus\frmDebug.resx">
+      <DependentUpon>frmDebug.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\frmDeviceInfo.resx">
+      <DependentUpon>frmDeviceInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmPickColor.resx">
+      <DependentUpon>frmPickColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmAddProfile.resx">
+      <DependentUpon>frmAddProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmAdvProcessInput.resx">
+      <DependentUpon>frmAdvProcessInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmDBManager.resx">
+      <DependentUpon>frmDBManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\frmError.resx">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmKeyPress.resx">
+      <DependentUpon>frmKeyPress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmMMO7LEDFlow.resx">
+      <DependentUpon>frmMMO7LEDFlow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmProcessList.resx">
+      <DependentUpon>frmProcessList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmProfileDB.resx">
+      <DependentUpon>frmProfileDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmProfilesSettings.resx">
+      <DependentUpon>frmProfilesSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\frmAutoProfiler.resx">
+      <DependentUpon>frmAutoProfiler.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles Settings\frmTestScript.resx">
+      <DependentUpon>frmTestScript.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\DPIMode4.png" />
+    <None Include="Resources\Device Icons\DPIMode3.png" />
+    <None Include="Resources\Device Icons\DPIMode2.png" />
+    <None Include="Resources\Device Icons\DPIMode1.png" />
+    <None Include="Resources\Device Icons\DPIMode0.png" />
+    <None Include="Resources\Device Icons\WhiteRAT.png" />
+    <None Include="Resources\Device Icons\RAT.png" />
+    <None Include="Resources\Device Icons\Keyboardv7.png" />
+    <None Include="Resources\Device Icons\MMO7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\CAP - Blue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\CAP - Mag.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\CAP - Red.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\Flight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\Gamepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\STRIKE7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\Infection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\KeyboardV5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\KeyboardV1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\CommandUnit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\Selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DLL\Saitek.Devices.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text\Read Me.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\None.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-X52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-BIB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-Yoke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-Rudder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-Throttle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Device Icons\PF-TPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu\TaskMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu\TaskProfileNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu\TaskProfileSelected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\SpyPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\SpyCursorIcon.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\CAP.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAP Icons\CAP - Green.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DLL\msscript.ocx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script Examples\Kill Process Script.vbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script Examples\Run Process Script.vbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script Examples\uTorrent - Close&amp;Open.vbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu\MMO7LED.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu\Swatch.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

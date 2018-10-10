@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Settings>
+    <Key>Version</Key>
+    <Value>3.2.2</Value>
+  </Settings>
+  <Settings>
+    <Key>ProfilesDirectory</Key>
+    <Value>C:\Users\Public\Documents\SmartTechnology Profiles</Value>
+  </Settings>
+  <Settings>
+    <Key>CheckforUpdates</Key>
+    <Value>1</Value>
+  </Settings>
+  <Settings>
+    <Key>Profiles</Key>
+    <Value>0</Value>
+  </Settings>
+  <Settings>
+    <Key>DefaultProfile</Key>
+    <Value>0</Value>
+  </Settings>
+  <Settings>
+    <Key>ClearProfile</Key>
+    <Value>0</Value>
+  </Settings>
+  <Settings>
+    <Key>CheckTime</Key>
+    <Value>1000</Value>
+  </Settings>
+  <Settings>
+    <Key>AutoEnable</Key>
+    <Value>0</Value>
+  </Settings>
+  <Settings>
+    <Key>HotKeyEnabled</Key>
+    <Value>0</Value>
+  </Settings>
+  <Settings>
+    <Key>SystemTrayInfo</Key>
+    <Value>1</Value>
+  </Settings>
+  <Settings>
+    <Key>DetectionType</Key>
+    <Value>1</Value>
+  </Settings>
+</NewDataSet>
