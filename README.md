@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/DoganM95/Cyborg-Auto-Profiler.svg?branch=master)](https://travis-ci.org/DoganM95/Cyborg-Auto-Profiler)
 
 # Cyborg-Auto-Profiler
-## This Source Code is forked from Danny Hasley @ Sourceforge.
+## This (original/untouched) source code is forked from Danny Hasley @ Sourceforge.
 ### As he discontinued his work on the Cyborg-Auto-Profiler, i am planning to continue his work if i find some spare time.
 
 
