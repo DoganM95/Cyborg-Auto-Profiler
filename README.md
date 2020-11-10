@@ -1,4 +1,4 @@
-# Cyborg-Auto-Profiler
+# Cyborg-Auto-Profiler (for MadCatz Mice)
 ## This untouched source-code is forked from Danny Hasley @ Sourceforge.
 
 ## Original Software description by Danny:
