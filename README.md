@@ -1,6 +1,5 @@
 # Cyborg-Auto-Profiler
-## This (original/untouched) source code is forked from Danny Hasley @ Sourceforge. It also contains the v3.2.2 release: https://github.com/DoganM95/Cyborg-Auto-Profiler/tree/master/AutoProfiler/bin/Release
-
+## This untouched source-code is forked from Danny Hasley @ Sourceforge.
 
 ## Original Software description by Danny:
 >Cyborg Auto-Profiler Overview
